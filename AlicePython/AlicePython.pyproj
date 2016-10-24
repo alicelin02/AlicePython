@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e04f5306-390b-4053-b000-4c6e0a5603a5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>guessMynumber2.py</StartupFile>
+    <StartupFile>guessMynumber3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
   <ItemGroup>
     <Compile Include="guessMynumber.py" />
     <Compile Include="guessMynumber2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="guessMynumber3.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
